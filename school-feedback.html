@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>School Feedback Form</title>
+</head>
+<body>
+  <h1>Green Valley School</h1>
+  <h2>Student Feedback Form</h2>
+
+  <form>
+    <p>
+      <label>Student Name:</label><br>
+      <input type="text" name="student_name" size="30">
+    </p>
+
+    <p>
+      <label>Class / Grade:</label><br>
+      <input type="text" name="class" size="30">
+    </p>
+
+    <p>
+      <label>Teacher / Subject:</label><br>
+      <input type="text" name="teacher_subject" size="30">
+    </p>
+
+    <p>
+      <label>Term:</label><br>
+      <select name="term">
+        <option value="">Select</option>
+        <option>Term 1</option>
+        <option>Term 2</option>
+        <option>Term 3</option>
+        <option>Annual</option>
+      </select>
+    </p>
+
+    <p>
+      <label>How happy are you with school?</label><br>
+      <input type="radio" name="rating" value="Excellent"> Excellent
+      <input type="radio" name="rating" value="Good"> Good
+      <input type="radio" name="rating" value="Fair"> Fair
+      <input type="radio" name="rating" value="Poor"> Poor
+    </p>
+
+    <p>
+      <label>What do you like most?</label><br>
+      <input type="checkbox" name="like" value="Teachers"> Teachers
+      <input type="checkbox" name="like" value="Classrooms"> Classrooms
+      <input type="checkbox" name="like" value="Library"> Library
+      <input type="checkbox" name="like" value="Sports"> Sports
+      <input type="checkbox" name="like" value="Environment"> School Environment
+    </p>
+
+    <p>
+      <label>Comments and Suggestions:</label><br>
+      <textarea name="comments" rows="6" cols="40"></textarea>
+    </p>
+
+    <p>
+      <input type="submit" value="Submit Feedback">
+      <input type="reset" value="Reset">
+    </p>
+  </form>
+</body>
+</html>
